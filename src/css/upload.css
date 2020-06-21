@@ -1,0 +1,179 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header{
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+header a {
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.account{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+.account .my-account{
+    color: #00BBFF;
+}
+.account .upload{
+    color: #DDDDDD;
+}
+
+/*upload-bar部分*/
+.upload-bar{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 100%;
+    height: 1100px;
+    background-color:  #F8F8F8;
+}
+.upload-container{
+     margin: 50px 0 0 40px;
+     padding:12px;
+     background-color:  #ffffff;
+     border: 1px solid #DDDDDD;
+     border-radius: 1%;
+ }
+/*upload-photo部分*/
+#imghead {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+.photo-container{
+    padding-left: 350px;
+}
+.photo-container .photo-container-instruction{
+    padding: 300px 0 0 0;
+}
+
+.upload-photo{
+    border-bottom: 1px solid #DDDDDD;
+    text-align: center;
+}
+.upload-photo .input-photo{
+    margin: 10px 0 0 5px;
+    padding-bottom: 10px;
+}
+/*upload-detail部分*/
+.upload-detail .form-col{
+    margin-left: 325px;
+    margin-bottom: 20px;
+}
+.upload-detail label{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.upload-detail .form-control{
+    padding: 6px 12px;
+    width: 65%;
+}
+.upload-detail select{
+    padding: 6px 12px;
+    width: 68%;
+}
+.upload-detail textarea{
+    width: 67%;
+    height: 85px;
+}
+.upload-detail .form-button{
+    text-align: center;
+}
+.upload-detail .form-button .submit-button{
+    font-size: 20px;
+    width:90px;
+    height: 30px;
+    margin-left: 325px;
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+    background-color: #000000 ;
+    margin-bottom: 10px;
+}
+.upload-detail .form-button .submit-button:hover{
+    background-color: #00BBFF;
+}
+
+
+/*footer部分*/
+footer{
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #000000;
+    text-align: center;
+}
+footer .copyright{
+    color: #ffffff;
+    font-size: 15px;
+    padding:10px 0;
+}

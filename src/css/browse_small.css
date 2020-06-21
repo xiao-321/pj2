@@ -1,0 +1,252 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header{
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+header a {
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.browse{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+
+/*browse-container部分*/
+.browse-container{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 100%;
+    height: 1050px;
+    background-color:  #F8F8F8;
+}
+
+/*search-bar部分*/
+.search-bar{
+    float:left;
+    margin: 40px 0 80px 60px;
+    max-width: 25%;
+}
+
+.search-by-title{
+    margin-bottom: 25px;
+    padding:12px;
+    width:275px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.search-by-title label{
+    font-size: 20px;
+    margin: 10px;
+}
+.search-by-title .form-control{
+    margin: 10px;
+}
+.search-by-title .search-button{
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.hot-search{
+    margin-bottom: 25px;
+    padding:12px;
+    width:275px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+
+.hot-search a{
+    text-decoration:none;
+    display:block;
+}
+.hot-search ul{
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.hot-search ul li{
+    margin-right: 20px;
+    list-style-type: none;
+}
+.hot-search-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.hot-search-content{
+    color: #AAAAAA;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.hot-search-content:hover{
+    color: #00BBFF;
+}
+
+/*filter部分*/
+.filter{
+    float: right;
+    margin: 40px 60px 80px 0;
+    max-width: 75%;
+}
+/*filter-bar部分*/
+.filter-bar{
+    padding:12px;
+    width:900px;
+    margin-bottom: 5px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.filter-bar label{
+    font-size: 20px;
+    margin: 10px;
+}
+.filter-bar select {
+    padding: 0.5em;
+    margin: 10px;
+    width: 200px;
+    border: #56707f solid 1px;
+}
+.filter-bar select:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.filter-bar a{
+    margin-left: 20px;
+    padding: 10px 8px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.filter-bar a:hover{
+    background-color: #00BBFF;
+}
+
+/*storey-box部分*/
+.storey-box{
+    padding:12px;
+    width:900px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.storey-box .img-size{
+    margin-top: 10px;
+    margin-left: 650px;
+}
+.storey-box .img-size a{
+    text-decoration:none;
+    color: #AAAAAA;
+    padding-left: 7px;
+}
+.storey-box .img-size a:hover{
+    color: #00BBFF;
+}
+.storey-box .img-size .img-size-small{
+    color: #00BBFF;
+}
+.storey-box .contents{
+    padding: 5px 15px;
+}
+.storey-box .item{
+    float:left;
+    padding: 20px;
+}
+.storey-box .contents .item a img{
+    width: 132px;
+    height: 132px;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.storey-box .page{
+    padding-top: 725px;
+    text-align: center;
+    font-size: 20px;
+}
+.storey-box .page a{
+    text-decoration:none;
+    color: #000000;
+}
+/*footer部分*/
+footer{
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #000000;
+    text-align: center;
+}
+footer .copyright {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 0;
+}

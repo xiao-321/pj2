@@ -1,0 +1,230 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header{
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+header a {
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.home{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+
+/*first-screen部分*/
+.first-screen{
+    margin: 0;
+    max-width:100%;
+    font-size:20px;
+    padding-top: 80px;
+    text-align:center;
+    background-size: 100%;
+    background-image: url("../../images/home/first-screen.jpg");
+    background-color:  #000000 ;
+    background-repeat: no-repeat;
+}
+
+.first-screen .welcome{
+    color: #ffffff;
+    padding-top: 200px;
+    font-size: 70px;
+    font-weight: 600;
+}
+.first-screen .explanation{
+    color: #ffffff;
+    padding-top: 70px;
+    font-size: 35px;
+}
+.first-screen .meaning{
+    color: #ffffff;
+    padding-top: 230px;
+}
+
+
+/*storey-box部分*/
+.storey-box{
+    max-width:100%;
+    text-align:center;
+    background-color:  #F8F8F8;
+}
+
+.storey-box .title{
+    font-size: 35px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.storey-box .contents{
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width:100%;
+    height: 900px;
+    text-align:center;
+}
+
+.storey-box .contents .item{
+    width:200px;
+    height:300px;
+    margin:30px;
+    padding: 30px;
+    float:left;
+    border: 2px solid #000000;
+    border-radius: 1%;
+    display: block;
+    background-color: #ffffff;
+}
+
+.storey-box .contents .item a img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #DDDDDD;
+    border-radius: 1%;
+}
+
+.storey-box .contents .item .name{
+    padding-top: 10px;
+}
+
+.storey-box .contents .item .description{
+    padding-top: 20px;
+    height:54px;
+    line-height: 18px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
+}
+
+.storey-box .discover{
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: center;
+    background-color:  #00BBFF ;
+}
+.storey-box .discover :hover{
+    background-color:  #000000 ;
+}
+.storey-box .discover a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+/*ornament部分*/
+.ornament{
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    background-color:  #F8F8F8;
+    z-index: 99;
+    box-shadow: 3px 3px 30px #888888;
+}
+.ornament a{
+    text-decoration:none;
+    display:block;
+    color: #000000;
+    border:1px solid #DDDDDD;
+}
+/*footer部分*/
+footer{
+    background-color: #000000 ;
+    text-align: center;
+}
+#vx{
+    width: 150px;
+    height: 150px;
+}
+footer .instructions{
+    margin:0;
+    height: 220px;
+    color: #ffffff;
+    font-size: 15px;
+}
+footer .instructions .col{
+    float:left;
+    padding: 30px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+footer .instructions img{
+    float:right;
+    margin-right: 240px;
+    padding: 30px;
+}
+footer .copyright {
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,188 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header{
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+header a {
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.account{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+
+/*details-container部分*/
+.details-container{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 100%;
+    height: 900px;
+    background-color:  #F8F8F8;
+}
+/*photo部分*/
+.photo{
+    float:left;
+    margin: 50px 0 0 60px;
+    width: 60%;
+    padding:12px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.photo .photo-img img{
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+    width: 700px;
+}
+.photo .photo-like{
+    float:right
+}
+.photo .photo-like img{
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.photo .name{
+    font-size: 24px;
+    margin-top: 45px;
+    padding-top: 10px;
+    border-top:1px solid #DDDDDD;;
+}
+
+/*info部分*/
+.info{
+    float: right;
+    margin: 50px 60px 0 0;
+    width: 25%;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+/*info-author部分*/
+.info .info-basic{
+    font-size: 24px;
+    padding: 10px 12px 15px 12px;
+}
+.info .author-subscription{
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+.info .author-subscription:hover{
+   background-color: #00BBFF;
+}
+/*info-like部分*/
+.info .info-like{
+    padding: 25px 0;
+    color: #303030;
+    text-align: center;
+    border-bottom:  1px solid #DDDDDD;
+}
+.info .info-like-content{
+    padding: 5px 0;
+}
+.info .info-like-content .number{
+    font-weight: bold;
+    font-size: 30px;
+}
+.info .info-like-content .name{
+    font-size: 12px;
+}
+/*info-detail部分*/
+.info .info-detail ul li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.info .info-detail ul li .name{
+    float: left;
+    font-weight: bold;
+    width: 90px;
+}
+
+
+
+/*footer部分*/
+footer{
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #000000;
+    text-align: center;
+}
+footer .copyright{
+    color: #ffffff;
+    font-size: 15px;
+    padding:10px 0;
+}

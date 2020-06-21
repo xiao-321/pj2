@@ -1,0 +1,205 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header{
+    position: fixed;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+}
+header a {
+     text-decoration:none;
+     display:block;
+     color: #ffffff;
+ }
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.search{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+
+/*search部分*/
+.search-container{
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 100%;
+    height: 1750px;
+    background-color:  #F8F8F8;
+}
+/*search-bar部分*/
+.search-bar{
+    margin: 30px 0 25px 90px;
+    padding:15px 15px 0 15px;
+    width:1200px;
+    height: 250px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.search-bar .search-form{
+    margin-left: 125px;
+    margin-bottom: 20px;
+}
+.search-bar .type-in-title{
+    width: 35%;
+}
+.search-bar textarea{
+    width: 70%;
+    height: 85px;
+}
+.search-bar .form-button .submit-button{
+    text-align: center;
+}
+.search-bar .form-button .submit-button{
+    width:78px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 125px;
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+    background-color: #000000 ;
+    margin-bottom: 10px;
+}
+.search-bar .form-button .submit-button:hover{
+    background-color: #00BBFF;
+}
+/*search-result部分*/
+.search-result{
+    margin: 30px 0 25px 90px;
+    padding:15px 15px 0 15px;
+    width:1200px;
+    height: 1350px;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.search-result .title{
+    text-align: center;
+    font-size: 35px;
+}
+.search-result .item{
+    width: 1000px;
+    height: 225px;
+    margin: 15px 0 20px 100px;
+    border: 2px solid #000000;
+}
+.search-result .item a{
+    text-decoration:none;
+    color: #000000;
+    font-size: 25px;
+}
+.search-result .item img{
+    width: 25%;
+    height: 80%;
+    margin: 20px;
+    float: left;
+    border: 2px solid #DDDDDD;
+    border-radius: 1%;
+}
+.search-result .item .name{
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.search-result .item .description{
+    color: #707070;
+    margin-right: 20px;
+    height:70px;
+    line-height: 18px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+}
+.search-result .page{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.search-result .page a{
+    text-decoration:none;
+    color: #000000;
+}
+.search-result .page a:hover{
+    color: #00BBFF;
+}
+
+/*footer部分*/
+footer{
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #000000 ;
+    text-align: center;
+}
+footer .copyright{
+    color: #ffffff;
+    font-size: 15px;
+    padding:10px 0;
+}

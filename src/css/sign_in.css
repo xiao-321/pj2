@@ -1,0 +1,154 @@
+/*总体部分*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/*header部分*/
+header a {
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+}
+header{
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    height: 70px;
+}
+
+.logo{
+    float:left;
+    padding-left: 100px;
+    padding-top: 18px;
+}
+
+.account ul li a{
+    color: #00BBFF;
+}
+
+.menu{
+    float: left;
+    text-align: center;
+    padding-top: 12px;
+}
+.menu ul li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.menu ul li a:hover{
+    color: #00BBFF;
+}
+
+.account{
+    float: right;
+    margin: auto 3em;
+    padding-right: 100px;
+    padding-top: 12px;
+}
+.account ul li{
+    float: right;
+    list-style-type: none;
+}
+.account ul li a:hover{
+    color: #00BBFF;
+}
+.account ul li ul{
+    display:none;
+    position: absolute;
+    padding:0;
+}
+.account ul li ul li{
+    float:none;
+    list-style-type: none;
+    padding-top: 7px;
+}
+.account ul li ul li a{
+    display:block;
+    color: #AAAAAA;
+}
+.account ul li ul li img{
+    padding-right: 4px;
+}
+.account ul li ul li a:hover{
+    color: #DDDDDD;
+}
+.account ul li:hover ul{
+    display:block;
+}
+.account .login{
+    color: #DDDDDD;
+}
+
+/*contents部分*/
+.contents{
+    background-color:  #F8F8F8;
+    max-width:100%;
+    height:380px;
+    padding: 120px 560px;
+}
+.login-table-container{
+    padding: 30px;
+    position: relative;
+    background-color:  #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 1%;
+}
+.login-table-container .form-col{
+    margin-bottom: 20px;
+}
+.login-table-container h5{
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.login-table-container label{
+    display:inline-block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.login-table-container .form-control{
+    padding: 6px 12px;
+    width: 85%;
+}
+
+.login-table-container .form-button .submit-button{
+    text-align: center;
+}
+.login-table-container .form-button .submit-button{
+    width:78px;
+    height: 30px;
+    padding-top: 5px;
+    text-decoration:none;
+    display:block;
+    color: #ffffff;
+    background-color: #000000 ;
+    margin-bottom: 10px;
+}
+.login-table-container .form-button .submit-button:hover{
+    background-color: #00BBFF;
+}
+
+.login-table-container .register a{
+    text-decoration:none;
+    color: #000000;
+}
+.login-table-container .register a:hover{
+    color: #00BBFF;
+}
+
+/*footer部分*/
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:40px;
+    background-color: #000000 ;
+    text-align: center;
+}
+footer .copyright {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 0;
+}
